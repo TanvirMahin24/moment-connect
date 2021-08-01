@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "173049064377",
+    "project_id": "moment-connect-7003d",
+    "storage_bucket": "moment-connect-7003d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173049064377:android:745056a4a4a2f09c66a468",
+        "android_client_info": {
+          "package_name": "com.example.momentconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173049064377-gc57lntb9cpo1a4sf4g7h59prs67bf9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKd65d9boctz3nCLk-QQ1eZizKQqOQpQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173049064377-gc57lntb9cpo1a4sf4g7h59prs67bf9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173049064377:android:8378286babbd406e66a468",
+        "android_client_info": {
+          "package_name": "com.momentconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173049064377-gc57lntb9cpo1a4sf4g7h59prs67bf9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKd65d9boctz3nCLk-QQ1eZizKQqOQpQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173049064377-gc57lntb9cpo1a4sf4g7h59prs67bf9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
