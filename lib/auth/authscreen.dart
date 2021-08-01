@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
+import 'package:momentconnect/auth/loginscreen.dart';
+import 'package:momentconnect/auth/registerscreen.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -59,32 +61,42 @@ class _AuthScreenState extends State<AuthScreen> {
                   const SizedBox(
                     height: 40,
                   ),
-                  Container(
-                    width: MediaQuery.of(context).size.width / 2,
-                    height: 60,
-                    decoration: const BoxDecoration(
-                        gradient: LinearGradient(colors: GradientColors.blue),
-                        borderRadius: BorderRadius.all(Radius.circular(30))),
-                    child: const Center(
-                      child: Text(
-                        "Register Now",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
+                  InkWell(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => RegisterScreen())),
+                    child: Container(
+                      width: MediaQuery.of(context).size.width / 2,
+                      height: 60,
+                      decoration: const BoxDecoration(
+                          gradient: LinearGradient(colors: GradientColors.blue),
+                          borderRadius: BorderRadius.all(Radius.circular(30))),
+                      child: const Center(
+                        child: Text(
+                          "Register Now",
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
                       ),
                     ),
                   ),
                   const SizedBox(
                     height: 20,
                   ),
-                  Container(
-                    width: MediaQuery.of(context).size.width / 2,
-                    height: 60,
-                    decoration: const BoxDecoration(
-                        gradient: LinearGradient(colors: GradientColors.blue),
-                        borderRadius: BorderRadius.all(Radius.circular(30))),
-                    child: const Center(
-                      child: Text(
-                        "Login",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
+                  InkWell(
+                    onTap: () => Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => LoginScreen())),
+                    child: Container(
+                      width: MediaQuery.of(context).size.width / 2,
+                      height: 60,
+                      decoration: const BoxDecoration(
+                          gradient: LinearGradient(colors: GradientColors.blue),
+                          borderRadius: BorderRadius.all(Radius.circular(30))),
+                      child: const Center(
+                        child: Text(
+                          "Login",
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
                       ),
                     ),
                   ),
