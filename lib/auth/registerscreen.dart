@@ -137,7 +137,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       width: MediaQuery.of(context).size.width / 2,
                       height: 60,
                       decoration: const BoxDecoration(
-                          gradient: LinearGradient(colors: GradientColors.blue),
+                          gradient: LinearGradient(
+                              colors: GradientColors.facebookMessenger),
                           borderRadius: BorderRadius.all(Radius.circular(30))),
                       child: const Center(
                         child: Text(

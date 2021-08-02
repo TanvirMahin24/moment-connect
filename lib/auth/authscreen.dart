@@ -65,12 +65,13 @@ class _AuthScreenState extends State<AuthScreen> {
                     onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => RegisterScreen())),
+                            builder: (context) => const RegisterScreen())),
                     child: Container(
                       width: MediaQuery.of(context).size.width / 2,
                       height: 60,
                       decoration: const BoxDecoration(
-                          gradient: LinearGradient(colors: GradientColors.blue),
+                          gradient: LinearGradient(
+                              colors: GradientColors.facebookMessenger),
                           borderRadius: BorderRadius.all(Radius.circular(30))),
                       child: const Center(
                         child: Text(
@@ -84,13 +85,16 @@ class _AuthScreenState extends State<AuthScreen> {
                     height: 20,
                   ),
                   InkWell(
-                    onTap: () => Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => LoginScreen())),
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const LoginScreen())),
                     child: Container(
                       width: MediaQuery.of(context).size.width / 2,
                       height: 60,
                       decoration: const BoxDecoration(
-                          gradient: LinearGradient(colors: GradientColors.blue),
+                          gradient: LinearGradient(
+                              colors: GradientColors.facebookMessenger),
                           borderRadius: BorderRadius.all(Radius.circular(30))),
                       child: const Center(
                         child: Text(
